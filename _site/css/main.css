@@ -56,7 +56,7 @@ a img {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: helvetica, arial, sans;
+  font-family: 'Open Sans', helvetica, arial, sans;
   }
 
   .content-container {
@@ -94,6 +94,11 @@ a img {
   margin: 1em auto 0;
   max-width: 70%;
   text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
 }
 
 /* HEADER STYLES */
@@ -312,15 +317,15 @@ margin-bottom: 1em;
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans;
-  font-size: 1rem;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
+  height: 1.5em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding-top: 0.25em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 
 /* HOMEPAGE STYLES */
@@ -758,6 +763,7 @@ margin-bottom: 1em;
   .header-nav li:first-child a {
     color: #fff;
   }
+
   /* HIDE DROPDOWN IN THE NAV MENU */
   .header-nav .dropdown:hover .drop-menu,
   .header-nav .drop-trigger:after {
