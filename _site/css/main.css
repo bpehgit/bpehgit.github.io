@@ -293,11 +293,13 @@ margin-bottom: 1em;
   color: #fff;
 }
 
+
 .half-hero {
   background-position: center center;
   background-size: cover;
   height: 40vh;
 }
+
 
 /*
 .hero-content h1:before {
